@@ -1,0 +1,22 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDYAAAAUNUNgNgAAABVFdGNiP8AUFX934+I/wBQVdXdj4gPAFBV1d2PiA8AUFX934+I/wBQVR3RjYj/AFBV1Q2A2AAAUFUFAIDYAABQVQAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "evit"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACDSAAAAINUNINIAAABSFdEtIv8AIFUl0i8i/wAiUtXdLyIPACJV1d0vIg8AIlUl0i8i/yAiVRXRLSL/ICJV1Q0g0gAAIFUFACDSAAAiUgAAAAAAAAIAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "firey"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAODuDgAAAAAA7u7uAFDVAADu7u4OUNUAAO7uHtFdVf8A7u5N1F9V/wDu7t7dX1UPAO7u3t1fVQ8A7u5N1F9V/wDg7h3RXVX/AADu7g5Q1QAAAODuAFDVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Angelic"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
