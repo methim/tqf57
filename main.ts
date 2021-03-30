@@ -1,21 +1,27 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.vy = -200
-    pause(1000)
+    pause(200)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
     assets.animation`myAnim4`,
     100,
-    true
+    false
     )
+})
+controller.right.onEvent(ControllerButtonEvent.Released, function () {
+    mySprite.setImage(assets.image`evit`)
+})
+controller.left.onEvent(ControllerButtonEvent.Released, function () {
+    mySprite.setImage(assets.image`evit`)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
     assets.animation`myAnim`,
     100,
-    true
+    false
     )
 })
 let mySprite: Sprite = null
