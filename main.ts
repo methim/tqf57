@@ -1,6 +1,5 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.vy = -200
-    pause(200)
+    call_attemptjump()
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -16,6 +15,10 @@ controller.right.onEvent(ControllerButtonEvent.Released, function () {
 controller.left.onEvent(ControllerButtonEvent.Released, function () {
     mySprite.setImage(assets.image`evit`)
 })
+function call_attemptjump () {
+    mySprite.vy = -200
+    pause(200)
+}
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
